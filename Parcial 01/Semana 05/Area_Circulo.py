@@ -20,4 +20,4 @@ radio_usuario = float(input("Ingrese el radio del círculo: "))
 area_resultado = calcular_area_circulo(radio_usuario)
 
 # Muestra el resultado
-print("El área del círculo es:", area_resultado)
+print("El área del círculo es:", area_resultado)    
