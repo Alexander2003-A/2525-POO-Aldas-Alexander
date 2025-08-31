@@ -25,7 +25,7 @@ class Producto:
                 return None
             _id, nombre, cantidad, precio = partes
             return Producto(id=_id, nombre=nombre, cantidad=int(cantidad), precio=float(precio))
-        except Exception:
+        except Exception:   
             return None
 
     def a_csv(self) -> str:
