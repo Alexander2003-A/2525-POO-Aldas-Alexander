@@ -195,7 +195,7 @@ if __name__ == "__main__":
     # Dar de baja usuario (solo si no debe libros)
     print("Baja U001 (sin deudas):", b.dar_baja_usuario("U001"))
 
-    # Historial (opcional, por si te piden “historial de préstamos”)
+    # Historial (opcional,
     print("\nHistorial:")
     for mov in b.historial:
         print(mov)
