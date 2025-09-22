@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-from tkcalendar import DateEntry  # Instala con: pip install tkcalendar
+from tkcalendar import DateEntry
 
 # Función para agregar evento
 def agregar_evento():
